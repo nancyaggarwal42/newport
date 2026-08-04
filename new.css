@@ -23,23 +23,20 @@ html,body{
     z-index: 1;
     padding: 6% 4%;
 }
-#portfolio{
+.hero-text{
     position: absolute;
     top: 5%;
     left: 7%;
+}
+#name h5{
+  font-size: clamp(0.9rem, 1.5vw, 1.3rem);
+  margin-bottom: clamp(2px, 1.2vw, 14px);
 }
 #portfolio h2{
     font-size: clamp(2.5rem, 12vw, 8rem);
     white-space: nowrap;
     font-weight: 100;
-}
-#name{
-  position: absolute;
-  top: 9%;
-  left: 8%;
-}
-#name h5{
-  font-size: clamp(0.9rem, 1.5vw, 1.3rem);
+    line-height: 1;
 }
 #content{
     position: absolute;
