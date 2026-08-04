@@ -147,7 +147,7 @@ html,body{
   padding: 30px 5%;
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 28px;
   flex-direction: column;
   transform-style: preserve-3d;
   overflow: hidden; /* keeps the hidden description from poking outside the card */
@@ -178,10 +178,10 @@ html,body{
 }
 h3{
   text-align: center;
-  font-size: clamp(1.6rem, 6vw, 2.5rem);
+  font-size: clamp(2.3rem, 9vw, 2.9rem);
 }
 img{
-  height: 110px;
+  min-height: 140px;
   width: 180px;
   text-align: center;
   margin-top: 1%;
@@ -204,6 +204,7 @@ img{
 .desc h5{
   text-align: center;
   font-size: clamp(1rem, 2vw, 1.4rem);
+  text-decoration: underline;
 }
 .desc p{
   font-size: clamp(0.85rem, 1.5vw, 1.05rem);
@@ -211,12 +212,12 @@ img{
   margin-bottom: 2%;
   text-align: center;
 }
-button{
-  font-size: clamp(0.8rem, 1vw, 1rem);
+button a{
+  font-size: clamp(0.8em, 4vw, 1.2rem);
   font-weight: 900;
   border: 2px solid black;
   border-radius: 10px;
-  padding: 0.6em 1.7em;
+  padding: 0.6em 1.8em;
   cursor: pointer;
   color: #828080;
   background-color: black;
